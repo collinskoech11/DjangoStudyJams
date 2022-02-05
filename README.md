@@ -15,7 +15,7 @@ Getting started with django tutorial session
 ## Getting started with specifics 
 - [ ] set up header and footer design in index view 
 - [ ] set up views & urls for proposed views 
-## Database (DBsqlite3 -> django default database) 4
+## Database (DBsqlite3 -> django default database)
 - [ ] set up models for the various tables (i.e including foreign keys)
 - [ ] import models to admin view 
 ## User authentication & user groups 
