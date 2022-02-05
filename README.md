@@ -1,10 +1,10 @@
 # DjangoStudyJams
 Getting started with django tutorial session
 ## Requirements
-- [ ] Python3 installed 
+- [x] Python3 installed 
 ## Proposed Workflow
-- [ ] Python 3 Installation
-- [ ] installing virtualenv 
+- [x] Python 3 Installation
+- [x] installing virtualenv 
 - [ ] setting up virtual environment
 - [ ] installing Django 
 ## Setting up a basic project
