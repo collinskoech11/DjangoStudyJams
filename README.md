@@ -23,7 +23,13 @@ Getting started with django tutorial session
 - [ ] set up the diferent user groups 
 ## Dashboard design 
 - [ ] Patient Dashboard 
+    - [ ] display patient name 
+    - [ ] display payment history
+    - [ ] display Medical history 
 - [ ] Medical staff Dashboard 
+    - [ ] Display staff name 
+    - [ ] display presccription history  
+    - [ ] display unattended requests 
 ## Data entry Views 
 ### Patients 
 - [ ] Request Medical attention 
