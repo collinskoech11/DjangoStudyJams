@@ -18,6 +18,7 @@ Getting started with django tutorial session
 ## Database (DBsqlite3 -> django default database)
 - [ ] set up models for the various tables (i.e including foreign keys)
 - [ ] import models to admin view 
+- [ ] set up django workflow with github actions 
 
 
     ### Proposed tables 
