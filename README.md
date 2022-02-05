@@ -21,6 +21,13 @@ Getting started with django tutorial session
 
 
     ### Proposed tables 
+    #### Users(extension)
+    | fieldname | datatype | 
+    | :-- | :-- | 
+    | **username** | FK=> Users(User)  | 
+    | **role** | VarChar(UserGroup)  | 
+    | **user_id** | IntegerField  | 
+    
     
     #### Inventory(meds)
     | fieldname | datatype | 
