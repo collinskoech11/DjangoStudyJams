@@ -18,18 +18,74 @@ Getting started with django tutorial session
 ## Database (DBsqlite3 -> django default database)
 - [ ] set up models for the various tables (i.e including foreign keys)
 - [ ] import models to admin view 
+
+
+    ### Proposed tables 
+    
+    #### Inventory(meds)
+    | fieldname | datatype | 
+    | :-- | :-- | 
+    | **med_name** | CharField  | 
+    | **med_id** | IntegerField(AutoIncrement)  | 
+    | **manufacturer** | IntegerField(AutoIncrement)  | 
+    | **medtype** | CharField  | 
+    | **dosage** | CharField  | 
+    
+     #### Symptoms -> Medical service request (Patients)
+    | fieldname | datatype | 
+    | :-- | :-- | 
+    | **patient_name** | CharField(FK Users(User)  | 
+    | **patient_id** | IntegerField(FK Users(User_id))  | 
+    | **patient_age** | INtegerField  | 
+    | **symptom** | CharField | 
+    | **Duration of symptoms ** | IntegerField  | 
+    
+    
+    #### Payments (Patients)
+    | fieldname | datatype | 
+    | :-- | :-- | 
+    | **patient_name** | CharField(FK Users(User)  | 
+    | **patient_id** | IntegerField(FK Users(User_id))  | 
+    | **amount** | IntegerField  | 
+    | **payment_id** | IntegerField(AutoIncrement)  | 
+    
+    #### Prescriptions (Medical Staff)
+    | fieldname | datatype | 
+    | :-- | :-- | 
+    | **patient_name** | CharField(FK Users(User)  | 
+    | **patient_id** | IntegerField(FK Users(User_id))  | 
+    | **staff_name** | CharField(FK Users(User)  | 
+    | **staff_id** | IntegerField(FK Users(User_id))  | 
+    | **amount** | IntegerField  | 
+    | **payment_id** | IntegerField(AutoIncrement)  | 
+
+
+
+
 ## User authentication & user groups 
 - [ ] set up name & password verification 
 - [ ] set up the diferent user groups 
-## Dashboard design 
-- [ ] Patient Dashboard 
-    - [ ] display patient name 
-    - [ ] display payment history
-    - [ ] display Medical history 
-- [ ] Medical staff Dashboard 
-    - [ ] Display staff name 
-    - [ ] display presccription history  
-    - [ ] display unattended requests 
+
+## Design Implementation Intention 
+- [ ] Login/Register
+- [ ] Dashboard(Patient, Medical Staff)
+- [ ] Medical Service Request(Symptoms Form -> Patients)
+- [ ] Make Payments( -> Patients) 
+- [ ] Check Medical service Requests( -> Medical staff)
+    - [ ] Make Prescription based on selected service request(-> Medical staff)
+    ### Dashboard design 
+    - [ ] Patient Dashboard 
+        - [ ] display patient name 
+        - [ ] display payment history
+        - [ ] display Medical history 
+        - [ ] View all prescription with my name (Order by date)
+    - [ ] Medical staff Dashboard 
+        - [ ] Display staff name 
+        - [ ] display presccription history  
+        - [ ] display unattended requests 
+
+
+
 ## Data entry Views 
 ### Patients 
 - [ ] Request Medical attention 
