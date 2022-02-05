@@ -19,6 +19,7 @@ Getting started with django tutorial session
 - [ ] set up models for the various tables (i.e including foreign keys)
 - [ ] import models to admin view 
 - [ ] set up django workflow with github actions 
+    - [ ] automate database migrations 
 
 
     ### Proposed tables 
