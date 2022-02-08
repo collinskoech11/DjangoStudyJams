@@ -95,7 +95,7 @@ Getting started with django tutorial session
 
 
 
-## Data entry Views 
+## Views 
 ### Patients 
 - [ ] Request Medical attention 
 - [ ] Make payment 
