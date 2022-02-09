@@ -105,3 +105,14 @@ Getting started with django tutorial session
 - [ ] View Medical attention requests 
 - [ ] Make prescription 
 - [ ] Prescriptions history 
+
+
+spred operator
+destracturing 
+hoc 
+
+automae the boring stuff
+js mastery
+academind
+james flexbox -> the ninja 
+kevin powel
