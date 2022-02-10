@@ -107,12 +107,13 @@ Getting started with django tutorial session
 - [ ] Prescriptions history 
 
 
-spred operator
-destracturing 
-hoc 
+## Extra stuff (personal study)
+- [ ] spred operator
+- [ ] destracturing 
+- [ ] hoc 
 
-automae the boring stuff
-js mastery
-academind
-james flexbox -> the ninja 
-kevin powel
+## 
+- [ ] js mastery
+- [ ] academind
+- [ ] james flexbox -> the ninja 
+- [ ] kevin powel
