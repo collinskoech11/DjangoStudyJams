@@ -45,9 +45,9 @@ Getting started with django tutorial session
     | :-- | :-- | 
     | **patient_name** | CharField(FK Users(User)  | 
     | **patient_id** | IntegerField(FK Users(User_id))  | 
-    | **patient_age** | INtegerField  | 
+    | **patient_age** | IntegerField  | 
     | **symptom** | CharField | 
-    | **Duration of symptoms ** | IntegerField  | 
+    | **Duration of symptoms** | IntegerField  | 
     
     
     #### Payments (Patients)
