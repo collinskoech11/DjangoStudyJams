@@ -108,7 +108,7 @@ Getting started with django tutorial session
 
 
 ## Extra stuff (personal study)
-- [ ] spred operator
+- [ ] spread operator
 - [ ] destracturing 
 - [ ] hoc 
 
